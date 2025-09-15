@@ -45,12 +45,12 @@
 
 ## Задание 4: Подготовка файлов
 **Скриншот результата:**
-![]([pic/Подготовка файлов.png](https://github.com/gleb213122312/programm-engineering/blob/main/pic/%D0%9F%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B0%20%D1%84%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2.png))
+![](https://github.com/gleb213122312/programm-engineering/blob/main/pic/%D0%9F%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B0%20%D1%84%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2.png)
 **Вывод:** Подготовил их к коммиту.Добавил файлы в staging area.
 
 ## Задание 5: Фиксация изменений
 **Скриншот результата:**
-![]([pic/Фиксация изменений.png](https://github.com/gleb213122312/programm-engineering/blob/main/pic/%D0%A4%D0%B8%D0%BA%D1%81%D0%B0%D1%86%D0%B8%D1%8F%20%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D0%B9.png))
+![](https://github.com/gleb213122312/programm-engineering/blob/main/pic/%D0%A4%D0%B8%D0%BA%D1%81%D0%B0%D1%86%D0%B8%D1%8F%20%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D0%B9.png)
 **Вывод:** Выполнил первый коммит с описанием изменений, зафиксировал текущее состояние файлов.
 
 ## Задание 6: Подключение к удаленному репозиторию
@@ -96,7 +96,7 @@
 ![](https://github.com/gleb213122312/programm-engineering/blob/main/pic/%D0%98%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BA%D0%BE%D0%BC%D0%BC%D0%B8%D1%82%D0%B0.png)
 **Вывод:** Исправление последнего коммита с использованием `git commit --amend`.
 
-## Задание 2.14: Разрешение конфликтов при слиянии
+## Задание 14: Разрешение конфликтов при слиянии
 **Скриншот результата:**
 ![](https://github.com/gleb213122312/programm-engineering/blob/main/pic/%D0%A0%D0%B0%D0%B7%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BA%D0%BE%D0%BD%D1%84%D0%BB%D0%B8%D0%BA%D1%82%D0%BE%D0%B2%20%D0%BF%D1%80%D0%B8%20%D1%81%D0%BB%D0%B8%D1%8F%D0%BD%D0%B8%D0%B8.png)
 **Вывод:** Освоил разрешение конфликтов слияния которые возникают при объединении веток с разными изменениями.
