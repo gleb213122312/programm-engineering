@@ -1,7 +1,7 @@
 # Тема 2. Операторы, условия, циклы
 Отчет по Теме #3 выполнил:
-- Еськин Егор Максимович
-- ИВТ-23-1
+- Конев Глеб Олегович
+- Группа: ИВТ-23-1
 
 | Задание | Лаб_раб | Сам_раб |
 | ------ | ------ | ------ |
@@ -205,9 +205,9 @@ x = 6 * 5 = 30, затем x = 30 + 1 = 31.
 ## Самостоятельная работа №2
 ### Напишите программу, которая переворачивает «Hello World» в обратном порядке, и каждая буква находится в отдельной строке консоли.
 ```python
-word = "Hello World"[::-1]
-for char in word: 
-    print(char)
+s = "Hello World"
+for ch in s[::-1]:
+    print(ch)
 ```
 ### Результат.
 ![](pic/sam2.png)
@@ -226,16 +226,14 @@ for char in word:
 
 Результатом работы программы будет выведенный в консоль диапазон. Программа должна занимать не более 10 строчек в редакторе кода.
 ```python
-x = int(input())
-if x < 0 or x > 10: 
-    print("Неверный диапазон") 
-    exit()
-if x <= 3: 
-    print("от 0 до 3 включительно")
-elif x <= 6: 
-    print("от 3 до 6")
-else: 
-    print("от 6 до 10 включительно")
+n = input("Введите число от 0 до 10: ")
+if not n.isdigit() or not 0 <= int(n) <= 10:
+    print("Ошибка")
+else:
+    n = int(n)
+    if n <= 3: print("Диапазон: 0-3")
+    elif n <= 6: print("Диапазон: 3-6")
+    else: print("Диапазон: 6-10")
 ```
 ### Результат.
 ![](pic/sam3.png)
@@ -259,24 +257,14 @@ else:
 
 Проверьте работу программы минимум на 3 предложениях, чтобы охватить проверку всех поставленных условий.
 ```python
-sentence = input("Введите предложение на английском: ")
+s = input("Введите предложение на английском: ")
 
-print("Длина предложения:", len(sentence))
-
-print("В нижнем регистре:", sentence.lower())
-
-vowels = ['a', 'e', 'i', 'o', 'u']
-count=0
-for char in sentence.lower():
-    if char in vowels:
-        count+=1
-
-print("После замены:", sentence.replace("ugly", "beauty"))
-
-if sentence.startswith("The"):
-    print("Начинается с 'The':", sentence.startswith("The"))
-if sentence.endswith("end"):
-    print("Заканчивается на 'end':", sentence.endswith("end"))
+print("Длина:", len(s))
+print("В нижнем регистре:", s.lower())
+print("Количество гласных:", sum(s.lower().count(v) for v in "aeiou"))
+print("Замена ugly -> beauty:", s.replace("ugly", "beauty"))
+print("Начинается с 'The':", s.startswith("The"))
+print("Заканчивается на 'end':", s.endswith("end"))
 ```
 ### Результат.
 ![](pic/sam4.png)
