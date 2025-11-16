@@ -1,0 +1,27 @@
+Вызов add_line_to_file с args=('Это первая строка',), kwargs={}
+Функция add_line_to_file завершилась.
+
+Вызов add_line_to_file с args=('Вторая строка для примера',), kwargs={}
+Функция add_line_to_file завершилась.
+
+Вызов show_file с args=(), kwargs={}
+Функция show_file завершилась.
+
+Вызов add_line_to_file с args=('Это первая строка',), kwargs={}
+Функция add_line_to_file завершилась.
+
+Вызов add_line_to_file с args=('Вторая строка для примера',), kwargs={}
+Функция add_line_to_file завершилась.
+
+Вызов show_file с args=(), kwargs={}
+Функция show_file завершилась.
+
+Вызов add_line_to_file с args=('Это первая строка',), kwargs={}
+Функция add_line_to_file завершилась.
+
+Вызов add_line_to_file с args=('Вторая строка для примера',), kwargs={}
+Функция add_line_to_file завершилась.
+
+Вызов show_file с args=(), kwargs={}
+Функция show_file завершилась.
+
